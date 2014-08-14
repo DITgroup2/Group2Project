@@ -122,17 +122,13 @@ public class SupplierTab extends JPanel {
 		JOptionPane.showInputDialog(addressField);
 		btnCreateSupplier.setVisible(true);
 		
-		businessNameField.setVisible(true);
-		vatNumField.setVisible(true);
-		addressField.setVisible(true);
-		contactField.setVisible(true);
-		emailField.setVisible(true);
-		
-		lblBusinessName.setVisible(true);
-		lblVatNumber.setVisible(true);
-		lblContact.setVisible(true);
-		lblAddress.setVisible(true);
-		lblEmail.setVisible(true);
+		/*
+		 * businessNameField.setVisible(true); vatNumField.setVisible(true);
+		 * addressField.setVisible(true); contactField.setVisible(true);
+		 * emailField.setVisible(true); lblBusinessName.setVisible(true);
+		 * lblVatNumber.setVisible(true); lblContact.setVisible(true);
+		 * lblAddress.setVisible(true); lblEmail.setVisible(true);
+		 */
 	}
 	public void endCreationMode(){
 		btnCreateSupplier.setVisible(false);
