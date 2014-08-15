@@ -1,5 +1,5 @@
 package group2;
-
+  
 /**
  * @author Roland Katona
  *
